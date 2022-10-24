@@ -1,3 +1,8 @@
 const addExtraHour = (wage, extraHourPrice) => wage + extraHourPrice;
 
-console.log('addExtraHour', addExtraHour);
+const calculateDiscounts = (wage, discounts) => wage - discounts;
+
+export {
+  addExtraHour,
+  calculateDiscounts,
+};
